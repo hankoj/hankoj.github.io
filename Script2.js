@@ -345,7 +345,7 @@ function chooseAddr(lat1, lng1, lat2, lng2, osm_type) {
 function searchBar() {
     var inp = document.getElementById("addr");
 
-    $.getJSON('http://nominatim.openstreetmap.org/search?format=json&limit=5&q=' + inp.value + " meadville" + " pa", function(data) {
+    $.getJSON('https://nominatim.openstreetmap.org/search?format=json&limit=5&q=' + inp.value + " meadville" + " pa", function(data) {
         var items = [];
 
         // $.each(data, function(key, val) {
