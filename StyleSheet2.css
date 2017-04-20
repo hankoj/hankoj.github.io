@@ -1,0 +1,33 @@
+html, body
+{
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map
+{
+	height: 100%;
+    /*position: relative;*/
+    width: 100%;
+}
+
+#search
+{
+    background-color: white;
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+#searchString
+{
+    width: 320px;
+}
+
+#toggleRedButton
+{
+    position: absolute;
+    bottom: 100px;
+}
